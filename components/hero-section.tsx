@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Music } from "lucide-react"
+import Link from "next/link"
 
 export function HeroSection() {
   return (
@@ -17,18 +18,30 @@ export function HeroSection() {
       <header className="absolute top-0 left-0 right-0 z-20 p-4 md:p-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img 
-              src="/sur_n_swag_logo.png" 
-              alt="Sur N Swag Logo" 
-              className="h-16 md:h-24 lg:h-32 w-auto drop-shadow-2xl"
-            />
+            <Link href="/">
+              <img 
+                src="/sur_n_swag_logo.png" 
+                alt="Sur N Swag Logo" 
+                className="h-16 md:h-24 lg:h-32 w-auto drop-shadow-2xl cursor-pointer"
+              />
+            </Link>
           </div>
-          <Button 
-            variant="outline" 
-            className="bg-background/90 backdrop-blur-sm text-foreground border-foreground/20 hover:bg-background shadow-lg"
-          >
-            Contact
-          </Button>
+          <div className="flex items-center gap-3">
+            <Link href="/about">
+              <Button 
+                variant="outline" 
+                className="bg-background/90 backdrop-blur-sm text-foreground border-foreground/20 hover:bg-background shadow-lg"
+              >
+                About
+              </Button>
+            </Link>
+            <Button 
+              variant="outline" 
+              className="bg-background/90 backdrop-blur-sm text-foreground border-foreground/20 hover:bg-background shadow-lg"
+            >
+              Contact
+            </Button>
+          </div>
         </div>
       </header>
 
