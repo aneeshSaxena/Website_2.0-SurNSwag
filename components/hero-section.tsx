@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { Music } from "lucide-react"
 import Link from "next/link"
 
@@ -28,19 +29,20 @@ export function HeroSection() {
           </div>
           <div className="flex items-center gap-3">
             <Link href="/about">
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 className="bg-background/90 backdrop-blur-sm text-foreground border-foreground/20 hover:bg-background shadow-lg"
               >
                 About
               </Button>
             </Link>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               className="bg-background/90 backdrop-blur-sm text-foreground border-foreground/20 hover:bg-background shadow-lg"
             >
               Contact
             </Button>
+            <ThemeToggle />
           </div>
         </div>
       </header>
