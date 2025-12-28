@@ -2,6 +2,7 @@
 
 import { MediaReveal } from "@/components/media-reveal"
 import { Card } from "@/components/ui/card"
+import Link from "next/link"
 
 interface Event {
   id: number
@@ -58,18 +59,20 @@ export function EventsGallery() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {events.map((event, index) => (
             <MediaReveal key={event.id} delay={index * 100}>
-              <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer aspect-[4/3]">
-                <img
-                  src={event.imageSrc}
-                  alt={event.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center backdrop-blur-md bg-white/30">
-                  <h3 className="text-white text-2xl md:text-3xl font-bold text-center px-4 drop-shadow-lg">
-                    {event.title}
-                  </h3>
+              <Link href={`/events/${event.id}`}>
+                <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer aspect-[4/3]">
+                  <img
+                    src={event.imageSrc}
+                    alt={event.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center backdrop-blur-md bg-white/30">
+                    <h3 className="text-white text-2xl md:text-3xl font-bold text-center px-4 drop-shadow-lg">
+                      {event.title}
+                    </h3>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </MediaReveal>
           ))}
         </div>
