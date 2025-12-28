@@ -10,26 +10,12 @@ interface Event {
   imageSrc: string
 }
 
+// Showing the 6 most recent events (Events 1-6)
 const events: Event[] = [
   {
-    id: 1,
-    title: "Event 1",
-    imageSrc: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop",
-  },
-  {
-    id: 2,
-    title: "Event 2",
-    imageSrc: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&h=600&fit=crop",
-  },
-  {
-    id: 3,
-    title: "Event 3",
-    imageSrc: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop",
-  },
-  {
-    id: 4,
-    title: "Event 4",
-    imageSrc: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&h=600&fit=crop",
+    id: 6,
+    title: "Event 6",
+    imageSrc: "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=800&h=600&fit=crop",
   },
   {
     id: 5,
@@ -37,14 +23,24 @@ const events: Event[] = [
     imageSrc: "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800&h=600&fit=crop",
   },
   {
-    id: 6,
-    title: "Event 6",
-    imageSrc: "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=800&h=600&fit=crop",
+    id: 4,
+    title: "Event 4",
+    imageSrc: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&h=600&fit=crop",
   },
   {
-    id: 7,
-    title: "Event 7",
-    imageSrc: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&h=600&fit=crop",
+    id: 3,
+    title: "Event 3",
+    imageSrc: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop",
+  },
+  {
+    id: 2,
+    title: "Event 2",
+    imageSrc: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&h=600&fit=crop",
+  },
+  {
+    id: 1,
+    title: "Event 1",
+    imageSrc: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop",
   },
 ]
 
@@ -53,7 +49,7 @@ export function EventsGallery() {
     <section className="py-16 md:py-24 px-4 bg-background">
       <div className="max-w-7xl mx-auto">
         <MediaReveal>
-          <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center">Our Events</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center">Recent Events</h2>
         </MediaReveal>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -13,7 +13,7 @@ export function FAQSection() {
           <p className="text-lg text-muted-foreground">
             Please reach us at{" "}
             <a href="mailto:info@surnswag.com" className="text-primary hover:underline">
-              info@surnswag.com
+              surnswag@gmail.com
             </a>{" "}
             if you cannot find an answer to your question.
           </p>
