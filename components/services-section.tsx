@@ -44,9 +44,10 @@ export function ServicesSection() {
               <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-2xl border-2">
                 <iframe
                   className="absolute inset-0 w-full h-full"
-                  src="https://www.youtube.com/embed/GbfFzueIC3w"
-                  title="Live Music Entertainment"
+                  src="https://www.youtube.com/embed/GbfFzueIC3w?si=4DGvvvgveha1cPap"
+                  title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen
                 />
               </div>
