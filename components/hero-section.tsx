@@ -7,11 +7,11 @@ export function HeroSection() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 z-0">
-        <img 
-          src="/sur_n_swag_background.png" 
-          alt="Sur N Swag Background" 
-          className="w-full h-full object-cover"
+      <div className="absolute inset-0 z-0 bg-[#FDF0E0]">
+        <img
+          src="/sur_n_swag_background.png"
+          alt="Sur N Swag Background"
+          className="w-full h-full object-contain"
         />
       </div>
 
