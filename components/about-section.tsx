@@ -15,7 +15,7 @@ export function AboutSection() {
               <div>
                 <h2 className="text-3xl md:text-5xl font-bold mb-6 text-balance">About Sur 'n Swag</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  Sur 'n Swag is a family owned business of talented individuals that love to sing, dance and entertain! After realizing the lack of quality bollywood entertainers and event organizers in the DFW area, we decided to fill that void by creating our own group of talent! Now, we are proud to offer our comprehensive and theme based entertainment with a 100% satisfaction guarantee!
+                  Sur N Swag Productions is a Dallas-based cultural and entertainment production house founded by Kirti Srivastava and Aneesh Saxena, focused on creating high-quality, emotionally rich musical experiences for the Indian and South Asian community.
                 </p>
               </div>
             </ScrollReveal>
@@ -49,7 +49,7 @@ export function AboutSection() {
               <div>
                 <h2 className="text-3xl md:text-5xl font-bold mb-6 text-balance">Our Services</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  We offer a wide variety of event services. Whether you need a live music entertainment or karaoke setup for full-scale bollywood events or small gatherings, we've got you covered. We also offer dance choreography, full scale entertainment planning, and customized playlists to ensure that your experience is personalized to what fits you best!
+                  Sur N Swag hosts a diverse portfolio of events including karaoke nights with strong repeat attendance, accredited ghazal singers and classical evenings, festival specials such as Diwali, Holi, Valentine's and New Year's, as well as corporate and private events and talent showcases.
                 </p>
               </div>
             </ScrollReveal>
@@ -65,7 +65,7 @@ export function AboutSection() {
               <div>
                 <h2 className="text-3xl md:text-5xl font-bold mb-6 text-balance">Our Mission</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  At Sur 'n Swag, we provide the highest quality Bollywood entertainment experience possible. We want to bring people together through the power of music and dance, creating memories that will last a lifetime. With our celebrated artists and event lineups, we strive to make every event unforgettable!
+                  Sur N Swag's vision is to grow into DFW's most trusted premium Indian music production brand, known for thoughtful curation, community connection, and experiences that audiences remember long after the music ends. We focus on creating a comprehensive entertainment experience—where music, hosting, storytelling, stage flow, sound, lighting, and audience engagement come together as one cohesive journey.
                 </p>
               </div>
             </ScrollReveal>

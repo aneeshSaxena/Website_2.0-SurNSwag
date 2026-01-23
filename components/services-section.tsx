@@ -21,7 +21,7 @@ export function ServicesSection() {
               <div>
                 <h3 className="text-2xl md:text-4xl font-bold mb-6 text-balance">Event MC and Organizing!</h3>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Elevate your event into a mesmerizing experience with Kirti, an artist and MC who radiates charm, sophistication, and authentic Bollywood flair. Her magnetic presence, vibrant storytelling, and seamless crowd engagement ensure your celebration flows effortlessly from start to finish. Whether you're hosting an elegant wedding, lively corporate gala, or festive gathering, Kirti transforms every occasion into a spectacular affair, leaving guests enchanted and asking for more. Book Kirti now and watch your event sparkle!
+                  We manage end-to-end production, from artist curation and rehearsals to promotion, ticketing, and flawless on-ground execution, delivering a seamless, professional experience for venues, sponsors, artists, and audiences alike. Our events consistently attract a loyal, high-engagement audience that stays through full shows, driven by nostalgia, storytelling, and quality performances.
                 </p>
               </div>
             </ScrollReveal>
@@ -56,7 +56,7 @@ export function ServicesSection() {
               <div>
                 <h3 className="text-2xl md:text-4xl font-bold mb-6 text-balance">Live music entertainment!</h3>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Elevate your event's ambiance with spectacular live music entertainment that touches the soul and electrifies the atmosphere. Our talented musicians deliver mesmerizing performances tailored perfectly for weddings, corporate events, or festive celebrations. From vibrant Bollywood hits to soothing melodies, experience the magic of live music that keeps your guests entertained, engaged, and enchanted. Book today and let the music move you!
+                  Our flagship property, Sur Mera Swag Tera, is a premium Bollywood and Ghazal musical evening designed as a curated, narrative-driven show rather than a collection of random performances. The videos here showcase our past events including our previous sold-out Sur Mera Swag Tera event in July 2025, along with production services we've provided in Dallas, Phoenix AZ, Nashville TN, and Denver CO.
                 </p>
               </div>
             </ScrollReveal>
@@ -70,7 +70,7 @@ export function ServicesSection() {
               <div>
                 <h3 className="text-2xl md:text-4xl font-bold mb-6 text-balance">Ignite Your Event with Rhythm!</h3>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Turn your special moments into captivating dance sequences choreographed to perfection! Our skilled choreographers craft bespoke routines, blending Bollywood energy with elegance and style. Ideal for weddings, celebrations, or corporate galas, our choreography ensures everyone—from beginners to seasoned dancers—shines confidently on stage. Book now and step into the spotlight!
+                  A core pillar of our work is highlighting under-appreciated and emerging talent by giving artists a professional stage, thoughtful curation, and an engaged audience that truly listens and connects. We bring together music, hosting, storytelling, stage flow, sound, lighting, and audience engagement as one cohesive journey.
                 </p>
               </div>
             </ScrollReveal>
@@ -105,7 +105,7 @@ export function ServicesSection() {
               <div>
                 <h3 className="text-2xl md:text-4xl font-bold mb-6 text-balance">Enhance your Corporate Events!</h3>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Enhance your corporate events with the charisma of our talent pool! We specialize in curating experiences based on YOUR preferences and ensure to create a one-of-a-kind event.
+                  We actively seek long-term, win-win partnerships with venues and sponsors through flexible collaboration models that enhance brand value, drive footfall and bar or food revenue, and establish venues as cultural destinations. We build relationships with venues and vendors from around Dallas who are interested in showcasing their services and brands to more than 200 people at our events who follow and support our partners with the Sur N Swag trust!
                 </p>
               </div>
             </ScrollReveal>
